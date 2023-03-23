@@ -1,2 +1,6 @@
-# GEOG_678_BKB
-WebGIS Class
+Benjamin Bayless - GEOG_678 - WebGIS
+
+Resource Links
+
+
+
