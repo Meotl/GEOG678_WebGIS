@@ -1,6 +1,3 @@
 Benjamin Bayless - GEOG_678 - WebGIS
 
-Resource Links
-
-
-
+This is the metadata file for each project.
