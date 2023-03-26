@@ -1,3 +1,7 @@
-Benjamin Bayless - GEOG_678 - WebGIS
+Benjamin Bayless
 
-This is the metadata file for each project.
+# TAMU GEOG_678 WEBGIS
+
+# ArcGIS Online
+
+This is the metadata for the labs.
