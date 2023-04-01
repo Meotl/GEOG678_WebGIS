@@ -1,5 +1,5 @@
-Benjamin Bayless
+# GEOG_678 WEBGIS BKB
 
-# GEOG_678 WEBGIS
+# Lab 1 - GitHub Setup
 
-# Setup GitHub Page
+*[GitHub Link](https://github.tamu.edu/bbayless/GEOG_678_BKB.git)*

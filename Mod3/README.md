@@ -1,5 +1,3 @@
-Benjamin Bayless
+# GEOG_678 WEBGIS BKB
 
-# GEOG_678 WEBGIS
-
-# Lab 3
+# Lab 3 -
