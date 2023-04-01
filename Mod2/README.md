@@ -1,6 +1,6 @@
 Benjamin Bayless
 
-# TAMU GEOG_678 WEBGIS
+# GEOG_678 WEBGIS 
 
 # Lab 2 Hawaii Island Lava Flow / Damage Assessment
 
