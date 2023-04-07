@@ -1,28 +1,112 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-    <h1>Benjamin Bayless Resume</h1>
-    <div id="introduction">
-      <h2>Introduction:</h2>
-      <p>Howdy, I am looking for a new challenge in my career. My skill set consists of over 20 years’ experience in land surveying, AutoCAD Civil design, GIS development, and project management. I have over 15 years of experience using Civil 3D, Carlson Survey, ArcGIS Pro, and others. I am fluent in most aspects of survey drafting and design in civil projects as well as oil and gas. </p>
-      <h2>Species</h2>
-      <ul>
-        <li>Arctos</li>
-        <li>Collarus</li>
-        <li>Horribilis</li>
-        <li>Nelsoni (extinct)</li>
-      </ul>
-      <h2>Features</h2>
-      <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
-    </div>
-    <div id="habitat">
-      <h2>Habitat</h2>
-      <p>
-      <a href=”www.linkedin.com/in/bbayless1974”>Go To LinkedIn</a>
-      </p>
-   
-  </body
-  </html>
+<head>
+	<title>WebResumeBKB</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #000000;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #000000;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		h1, h2 {
+			margin: 10px 0;
+		}
+		p {
+			margin: 10px 0;
+		}
+  
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 10px 0;
+		}
+		li {
+			margin: 5px 0;
+		}
+    h1 {
+    color: rgb(0, 153, 255);
+  }
+    h2 {
+    color: rgb(0, 153, 255);
+  }
+  h3 {
+    color: #8b94be;
+  }
+    p {
+    color: #ffffff;
+  }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Benjamin Bayless Web Resume</h1>
+			<h3>Professor and GIS Enthusiast</h3>
+      <img src="https://geography.indiana.edu/images/banners/banners-3072x1024/gis-banner.jpg" alt="Image description"><br>
+		</header>
+		<main>
+			<h2>Summary</h2>
+			<p>Howdy, I am looking for a new challenge in my career. My skill set consists of over 20 years’ experience in land surveying, AutoCAD Civil design, GIS development, and project management. I have over 15 years of experience using Civil 3D, Carlson Survey, ArcGIS Pro, and others. I am fluent in most aspects of survey drafting and design in civil projects as well as oil and gas. Some examples of projects can include right-of- way centerline easements and descriptions, road, and highway crossing permits, cut and fill topo design drawings, alignment sheets, and boundary topo. I will be graduating at the end of this year with my master’s degree in geosciences with emphasis on GIS track at Texas A&M. I had the opportunity to build an internal GIS database for a survey company. This provided them with different tools to search and manage their data. I teach in the land surveying department mostly CAD classes but after I complete the degree, we will be creating a new GIS program at TJC. As of recently, I have started learning python programming, FME, and model building within ArcGIS Pro. I am available full-time during the summers (May-Aug) only. The remaining part of the year I can work later afternoons, evenings, and weekends. Remote will more than likely be the only option. Thanks for reading. </p><br>
+			<h2>Skills</h2>
+			<ul>
+				<li><p>AutoCAD
+          Skyline, ArcGIS Pro, Geodatabase Tools, Carlson Survey, Civil 3D, SolidWorks, Land Desktop, Global Mapper, Google Earth, Trimble Business Center, Adobe Bluebeam, MS Office Suite, Computer Repairs, and SmartPhone Repairs.</p>
+          </li>
+				<br>
+			</ul>
+			<h2>Experience</h2>
+			<h3>GIS Developer</h3>
+			<p>Interland Surveying and Mapping</p>
+			<p>April 2021 - Jan 2023</p>
+			<ul>
+				<p>This was a contract position to build a new GIS Database system for the survey company. I also helped manage the field data and base drawings while working with Trimble Business Center and Civil 3D 2020. This GIS is a management tool to search for control, monument, and boundary data within the company and access to other public data. I had plans to go further with the system to automate the daily tasks such as converting a data file from CAD to GIS format and then adding it to the database but unfortunately there were budget issues and the contract was put on hold.</p>
+			</ul>
+			<h3>Surveying AutoCAD Instructor</h3>
+			<p>Tyler Junior College</p>
+			<p>January 2015 - June 2018</p>
+      <p>Prepare lecture notes and exercise descriptions, teaching, supervising practical exercises and student projects, for the Engineering Design and surveying students. The course subject consists of survey data collection, geo-data processing, topographic mapping, photo-and image mapping, geographic information systems, and civil engineering design procedures with 3D modeling. </p>
+		  <h3>CAD Project Manager / Skyline Tech / IT Support</h3>
+			<p>Transglobal Services, LLC</p>
+			<p>April 2014 - April 2018</p>
+      <p>Most of my duties at TGS were drafting centerline alignment sheets and easement plats. I was managing the CAD department for 2 of the clients. When I initially started, I assisted in as-built data development, AutoCAD standards, and GIS development for Anadarko and other clients.</p>
+      <h3>Senior Survey Technician and GIS Analyst</h3>
+			<p>Harris County Engineering</p>
+			<p>Sep 2012 - April 2014</p>
+      <p>Rebuilt the CAD drawing standards while streamlining the data processes. I Created boundary drawings, topographical and ALTA/ACSM surveys for engineering design support; Coordinate system and datum transformations; data conversion including converting CAD data to GIS and vice versa; geodatabase creation from spatial and non-spatial data (such as legal documents); spatial and attribute editing; georeferencing; cartographic design and map making for a variety of print and electronic formats; .kml creation for use with Google Earth; spatial analysis including raster calculation and analysis; raster data download and processing.</p>
+      <h3>Survey Tech and GIS Analyst</h3>
+			<p>RMC Surveying</p>
+			<p>Sep 2008 - June 2012</p>
+      <p>Created boundary drawings, topographical and ALTA/ACSM surveys for engineering design support and title insurance companies. Created plats for proposed Oil and Gas pipeline layouts. As-built pipeline platting and composed field notes for Anadarko Company and Chesapeake Energy. Plotted deeds and analyzed boundary lines for field to finish completion. Project managed over individual clients consisting mostly of residential lot improvement surveys.  Coordinate system and datum transformations; data conversion including converting CAD data to GIS and vice versa; geodatabase creation from spatial and non-spatial data (such as legal documents); spatial and attribute editing; digitizing; georeferencing; cartographic design and map making for a variety of print and electronic formats; .kml creation for use with Google Earth; spatial analysis including raster calculation and analysis; raster data download and processing.</p>
+		<br>
+			</ul>
+			<h2>Education</h2>
+      <h3>Master of Geoscience GIST</h3>
+      <p>Texas A&M University 2023</p>
+			<h3>Bachelor of Science in Surveying and Mapping</h3>
+			<p>University of Texas at Tyler 2010</p>
+			<p>Tyler Junior College 2009</p>
+		</main>
+  <br>
+    <a href="https://www.linkedin.com/in/bbayless1974/">Connect LinkedIn</a>
+  <br>
+  <br>
+  <a href="https://github.tamu.edu/bbayless/GEOG_678_BKB.git">Connect GitHub</a>
+
+
+
+	</div>
+</body>
+</html>
+
 
