@@ -41,7 +41,7 @@
     color: rgb(0, 153, 255);
   }
   h3 {
-    color: #8b94be;
+    color: rgb(0, 153, 255);
   }
     p {
     color: #ffffff;
