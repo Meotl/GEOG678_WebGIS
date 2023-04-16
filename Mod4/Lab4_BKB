@@ -6,8 +6,8 @@
 <!-- Container for the document-->
 
     <!-- Pull in the code within an external javascript file (located in the same directory) -->
-    <script src='WorstStudent_BKB.js'></script>
-	<script src='theJSON_BKB.js'></script>
+    <script src='worstStudent.js'></script>
+	<script src='theJSON.js'></script>
 
     <!-- Setting a creative title for the page -->
     <head>
