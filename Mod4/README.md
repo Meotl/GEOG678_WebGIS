@@ -7,3 +7,7 @@ Part 2 : Student with lowest GPA average
 ![1681685235879](image/README/1681685235879.png)
 
 Part 3: Finding the bounding box
+
+![1681775009863](image/README/1681775009863.png)
+
+![1681775032748](image/README/1681775032748.png)

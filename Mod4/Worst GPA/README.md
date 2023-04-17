@@ -1,9 +1,0 @@
-# GEOG_678 WEBGIS BKB
-
-**LAB 4 - JAVASCRIPT AND JSON PROGRAMMING**
-
-Part 2 : Student with lowest GPA average
-
-![1681685235879](image/README/1681685235879.png)
-
-Part 3: Finding the bounding box
