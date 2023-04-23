@@ -1,3 +1,5 @@
 # GEOG_678 WEBGIS BKB
 
 **LAB 5 - Basic JS Mapping with Leaflet**
+
+![1682266477341](image/README/1682266477341.png)
