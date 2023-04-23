@@ -3,3 +3,5 @@
 **LAB 5 - Basic JS Mapping with Leaflet**
 
 ![1682266477341](image/README/1682266477341.png)
+
+![1682268098113](image/README/1682268098113.png)
