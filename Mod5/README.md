@@ -2,8 +2,12 @@
 
 **LAB 5 - Basic JS Mapping with Leaflet**
 
-![1682268098113](image/README/1682268098113.png)
+LAB 5 - Tutorial 1
+
+![1682288028130](image/README/1682288028130.png)
 
 LAB 5 - Tutorial 2
 
-![1682275130248](image/README/1682275130248.png)
+![1682288081676](image/README/1682288081676.png)
+
+LAB 5 - Tutorial 3
