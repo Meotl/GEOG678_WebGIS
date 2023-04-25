@@ -13,3 +13,7 @@ LAB 5 - Tutorial 2
 LAB 5 - Tutorial 3
 
 ![1682307530783](image/README/1682307530783.png)
+
+LAB 5 - My New Web Map
+
+![1682386985927](image/README/1682386985927.png)

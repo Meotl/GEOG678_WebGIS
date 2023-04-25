@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Lab 5 My WebPage</title>
+	<title>Lab 5 FirstWebPage BKB</title>
 	
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 
@@ -32,16 +32,23 @@
 <div id='map'></div>
 
 <script>
-	const map = L.map('map').setView([51.5, -0.09], 13);
+	const map = L.map('map').setView([30.617620, -96.336560], 13);
 
 	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 
-	const LeafIcon = L.Icon.extend({
+    const circle = L.circle([30.617620, -96.336560], {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5,
+		radius: 100
+	}).addTo(map).bindPopup('I am Kyle Field.');
+
+    
+    const theIcon = L.Icon.extend({
 		options: {
-			shadowUrl: 'leaf-shadow.png',
-			iconSize:     [38, 95],
+			iconSize:     [20, 20],
 			shadowSize:   [50, 64],
 			iconAnchor:   [22, 94],
 			shadowAnchor: [4, 62],
@@ -49,16 +56,41 @@
 		}
 	});
 
-	const greenIcon = new LeafIcon({iconUrl: 'leaf-green.png'});
-	const redIcon = new LeafIcon({iconUrl: 'leaf-red.png'});
-	const orangeIcon = new LeafIcon({iconUrl: 'leaf-orange.png'});
+	const omIcon = new theIcon({iconUrl: 'https://cdn-icons-png.flaticon.com/512/541/541415.png'});
+	const abIcon = new theIcon({iconUrl: 'https://cdn-icons-png.flaticon.com/512/541/541415.png'});
+	
 
-	const mGreen = L.marker([51.5, -0.09], {icon: greenIcon}).bindPopup('I am a green leaf.').addTo(map);
-	const mRed = L.marker([51.495, -0.083], {icon: redIcon}).bindPopup('I am a red leaf.').addTo(map);
-	const mOrange = L.marker([51.49, -0.1], {icon: orangeIcon}).bindPopup('I am an orange leaf.').addTo(map);
+	const omI = L.marker([30.6014, -96.3145], {icon: omIcon}).bindPopup('I am the O&M Building!').addTo(map);
+	const mAb = L.marker([30.6158, -96.3408], {icon: abIcon}).bindPopup('I am the Academic Building!').addTo(map);
 
 </script>
 
+	<h1>Click on the map to see the coordinates</h1>
+	<div id="map"></div>
+
+<script>
+	
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+
+	function initMap() {
+		var map = new openstreetmap.org.Map(document.getElementById('map'), {
+			zoom: 8,
+			center: {lat: 37.7749, lng: -122.4194}
+		});
+
+		var infoWindow = new google.maps.InfoWindow();
+
+		map.addListener('click', function(e) {
+			var latitude = e.latLng.lat();
+			var longitude = e.latLng.lng();
+			infoWindow.setContent('Latitude: ' + latitude + '<br>Longitude: ' + longitude);
+			infoWindow.setPosition(e.latLng);
+			infoWindow.open(map);
+		});
+	}
+</script>
 
 
 </body>
