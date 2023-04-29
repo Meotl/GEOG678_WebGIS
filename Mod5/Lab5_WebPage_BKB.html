@@ -31,15 +31,14 @@
 
 <div id='map'></div>
 
-
 <script>
-	const map = L.map('map').setView([30.617620, -96.336560], 13);
+	var map = L.map('map').setView([30.617620, -96.336560], 13);
 
 	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 
-    const circle = L.circle([30.617620, -96.336560], {
+    var circle = L.circle([30.617620, -96.336560], {
 		color: 'red',
 		fillColor: '#f03',
 		fillOpacity: 0.5,
@@ -47,7 +46,7 @@
 	}).addTo(map).bindPopup('I am Kyle Field.');
 
     
-    const theIcon = L.Icon.extend({
+    var theIcon = L.Icon.extend({
 		options: {
 			iconSize:     [20, 20],
 			shadowSize:   [50, 64],
@@ -57,20 +56,27 @@
 		}
 	});
 
-	const omIcon = new theIcon({iconUrl: 'https://cdn-icons-png.flaticon.com/512/541/541415.png'});
-	const abIcon = new theIcon({iconUrl: 'https://cdn-icons-png.flaticon.com/512/541/541415.png'});
+	var omIcon = new theIcon({iconUrl: 'https://cdn-icons-png.flaticon.com/512/541/541415.png'});
+	var abIcon = new theIcon({iconUrl: 'https://cdn-icons-png.flaticon.com/512/541/541415.png'});
 	
 
-	const omI = L.marker([30.6014, -96.3145], {icon: omIcon}).bindPopup('I am the O&M Building!').addTo(map);
-	const mAb = L.marker([30.6158, -96.3408], {icon: abIcon}).bindPopup('I am the Academic Building!').addTo(map);
+	var omI = L.marker([30.6014, -96.3145], {icon: omIcon}).bindPopup('I am the O&M Building!').addTo(map);
+	var mAb = L.marker([30.6158, -96.3408], {icon: abIcon}).bindPopup('I am the Academic Building!').addTo(map);
 
+	
+var popup = L.popup();
+
+function onMapClick(e) {
+popup
+    .setLatLng(e.latlng)
+    .setContent("You clicked the map at " + e.latlng.toString())
+    .openOn(map);
+}
+
+	map.on('click', onMapClick);
 </script>
 
-	<div id="map"></div>
-
-
-
-
+	
 </body>
 </html>
 
