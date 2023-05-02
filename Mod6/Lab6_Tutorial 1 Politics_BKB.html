@@ -94,7 +94,6 @@ var myStyle = {
 
 L.geoJSON(myPoint).addTo(map);
 L.geoJSON(myLines, {style:myStyle}).addTo(map);
-
 L.geoJSON(myPolys, {
     style: function(feature) {
         switch (feature.properties.party) {

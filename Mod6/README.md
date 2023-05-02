@@ -13,3 +13,5 @@
 ***LAB 6 - Tutorial 2***
 
 ![1682895375038](image/README/1682895375038.png)
+
+***LAB 6 - TAMU Map***
