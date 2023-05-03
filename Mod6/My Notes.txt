@@ -1,5 +1,0 @@
-Lab 6
-Continue finishing Tutorial 2 (interactive legend and legend is what is left) (see screenshot)
-In tutorial on "Custom Info Control"
-
-Still have to do Lab 7 and 8
